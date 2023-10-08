@@ -1,0 +1,131 @@
+body {
+    width: 910px;
+    padding-left: 1.75em;
+    padding-top: 0.4em;
+    background-color: #dcdde7;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 300;
+}
+
+article {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+div.columns {
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+div#p2, div#confidence {
+    background-color: #2f4f4f;
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-weight: 300;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+span {
+    font-weight: 800;
+}
+
+span.student {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h3#plan1 {
+    background-color: #5bb189;
+}
+
+h3#plan2 {
+    background-color: #4b0082;
+}
+
+h3#plan3 {
+    background-color: #ec632a;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+    margin: 0;
+}
+
+li.main, button{
+    padding: 0.75rem;
+}
+
+button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3a6ba5;
+    color: white;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+button:hover {
+    background-color: #437CBF;
+}
+
+li.main:nth-child(2), li:nth-child(4) {
+    background-color: rgba(47, 59, 64, 0.35);
+}
+
+li.footlist {
+    padding-left: 2rem;
+    background-image: url(images/checkmark.svg);
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+div#confidence {
+    margin-top: 2rem;
+    padding: 2rem;
+    font-weight: 400;
+}
+
+div#confidence h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+div#confidence p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+a#footlink {
+    font-style: italic;
+}
